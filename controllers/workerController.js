@@ -247,6 +247,10 @@ const getWorkerAttendance = async (req, res) => {
   }
 };
 
+
+
+
+
 const UpdateWorkerSalary = async (req, res) => {
   const { id } = req.params;
   const { salary } = req.body;

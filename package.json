@@ -9,6 +9,7 @@
   "scripts": {
     "start": "node server.mjs",
     "server": "nodemon server.mjs"
+    
   },
   "dependencies": {
     "bcrypt": "^6.0.0",

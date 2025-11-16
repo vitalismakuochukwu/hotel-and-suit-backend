@@ -16,6 +16,8 @@ router.post('/update-profile', workerAuth, UpdateWorkerProfile)
 router.post('/get-profile', workerAuth, GetWorkerProfile)
 router.get('/getAttendance', adminAuth, getAttendance)
 router.post('/attendance', workerAuth, getWorkerAttendance)
+
+
 router.put('/salary/:id', adminAuth, UpdateWorkerSalary)
 router.put('/leave/:id', adminAuth, MarkWorkerLeave)
 router.get('/count', GetWorkersCount)
